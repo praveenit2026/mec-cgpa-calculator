@@ -1,0 +1,165 @@
+<center>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  
+  body {
+    background-repeat:no-repeat;
+    background-size: 1500px 800px;
+    background-position:center top;
+    color: rgb(255, 255, 255);
+  }
+  
+  #course-row {
+    font-size: 30px;
+    font-weight: bolder; 
+    margin-left: -2%;
+  }
+  
+  #credit-row {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 13%;
+  }
+  
+  #grade-row {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 8%;
+  }
+  
+  .calculator-box {
+    width: 50%;
+    height: auto;
+    border: 2px solid #000000;
+    margin: 200px auto;
+    background-color: #e7e6e6;
+  /*  text-align: center; */
+  }
+  
+  
+  /* On screens that are 1200px or less, set the width to 75% */
+  @media screen and (max-width: 1200px) {
+   .calculator-box {
+      width: 70%;
+    }
+  }
+  
+  /* On screens that are 950px or less, set the width to 75% */
+  @media screen and (max-width: 950px) {
+   .calculator-box {
+      width: 75%;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the width to 90% */
+  @media screen and (max-width: 600px) {
+   .calculator-box {
+      width: 90%;
+    }
+  }
+  
+  
+  h1 {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid: #164056;
+    background-color:#131a5f;
+  }
+  
+  h1:hover {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid #131a5f;
+    background-color: #ccc;
+    color: #000;
+  }
+
+  p{
+    padding: 20px;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    background-color: #3D5155c;
+  }
+   
+  #course-wrapper, form {
+    color: black;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e7e6e6;
+  }
+  input{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+  }
+  select{
+    padding: 15px;
+    border: none;
+    border-radius: 7.5px;
+    width: 20%;
+  /*   height: 30px; */
+  }
+   button {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+  /*   margin-left: 10px; */
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    background-color: #00108de2;
+    color: #e9e8e8;
+  }
+  
+   button:hover {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    color: #ffffff;
+    background: #000000;
+    border-color: #000000;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e9e8e8;
+  }
+  .lastp {
+    border: 1px solid #131a5f;
+    background-color: #131a5f;
+  }
+  .lastp p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+  } 
+  
+  .lastp p:hover {
+    background-color:#131a5f;
+    color: #ffffff;
+  } 
+  </center>
+  
